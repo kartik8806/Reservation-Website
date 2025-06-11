@@ -88,7 +88,7 @@ function NavBar(props) {
                         height="30"
                         className="d-inline-block align-top"
                     />{'  '}
-                    E7GZLY
+                    SportWeb
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 

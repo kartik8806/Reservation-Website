@@ -17,7 +17,7 @@ const Footer = () => {
             <li className="nav-item"  ><a href="#" className="nav-link px-2 WhiteText" >About</a></li>
           </ul>
 
-          <p className="text-center WhiteText"><img src={logo} width="20px" height="20px"></img>   © 2023 E7GEZLY, Inc</p>
+          <p className="text-center WhiteText"><img src={logo} width="20px" height="20px"></img>   © 2023 Kartik, Inc</p>
         </footer>
       </div>
     </div>

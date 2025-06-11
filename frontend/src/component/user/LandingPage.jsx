@@ -66,7 +66,7 @@ const UserExFeature = () => {
             <h1>Improve the fan experience</h1>
             <p>
                 Fans want a seamless and stress-free experience to see their team play  .
-                <mark>E7GZLY</mark>  make this possible with up-to-date location and event information.
+                <mark>SportWeb</mark>  make this possible with up-to-date location and event information.
                 With a wayfinding app for your stadium, fans are able to get an accurate view of the venue, at home or onsite.
                 Our solution allows stadiums to keep their venue maps up-to-date,showcase events and advertising,
                 and layer on additional experiences such as real-time indoor positioning that use accurate location-based data. You can also provide parking and wait-time updates, in-seat experiences, and more.

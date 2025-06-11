@@ -34,7 +34,7 @@ const AllUsers = () => {
                 <Row>
                     <Col>
                         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: 20 }}>
-                            <h1>E7gezly Users</h1>
+                            <h1>  Total Users and Users Details</h1>
                         </div>
                     </Col>
                 </Row>
