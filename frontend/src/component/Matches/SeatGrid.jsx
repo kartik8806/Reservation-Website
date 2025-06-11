@@ -71,7 +71,7 @@ export default function SeatGrid({match, hidden, setReservedSeats, setTprice}) {
                                         </IconButton>
                                     </Grid>
                                 ))}
-                            < /Grid>
+                            </Grid>
                         ))}
                     </TransformComponent>
                 </Fragment>

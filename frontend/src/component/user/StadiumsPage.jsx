@@ -104,33 +104,13 @@ const Stadiumspage = () => {
                                     onChange={handleOnChange}
                                     value={CurrentUserState.Government}
                                     name="Government" required>
-                                    <option>Alexandria</option>
-                                    <option>Assiut </option>
-                                    '<option>Aswan</option>'
+                                    <option>Narendra modi Stadium </option>
+                                    <option>Dharmshala Stadium </option>
+                                    '<option>MCA Stadium ,pune</option>'
                                     '<option>Beheira</option>'
-                                    '<option>Bani Suef</option>'
-                                    '<option>Cairo</option>'
-                                    '<option>Daqahliya</option>'
-                                    '<option>Damietta</option>'
-                                    '<option>Fayyoum</option>'
-                                    '<option>Gharbiya</option>'
-                                    '<option>Giza</option>'
-                                    '<option>Ismailia</option>'
-                                    '<option>Kafr El Sheikh</option>'
-                                    '<option>Marsa Matrouh</option>'
-                                    '<option>Minya</option>'
-                                    '<option>Monofiya</option>'
-                                    '<option>New Valley</option>'
-                                    '<option>North Sinai</option>'
-                                    '<option>Port Said</option>'
-                                    '<option>Qalioubiya</option>'
-                                    '<option>Qena</option>'
-                                    '<option>Red Sea</option>'
-                                    '<option>Sharqiya</option>'
-                                    '<option>Sohag</option>'
-                                    '<option>South Sinai</option>'
-                                    '<option>Suez</option>'
-                                    '<option>Tanta</option>'
+                                    '<option>Ohio Stadium</option>'
+                                    
+                                   
                                 </Form.Select>
                             </Form.Group>
 

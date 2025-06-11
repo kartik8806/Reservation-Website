@@ -50,7 +50,7 @@ const Ticket = ({ ticket }) => {
           </div> </Col>
       </Row>
       <Row style={{ marginLeft: 100, marginTop: 10 }}>
-        <Col> Price: {ticket.match.ticketPrice} </Col>
+        <Col> Price: {ticket.match.ticketPrice} /seats </Col>
         <Col>Stadium: {ticket.match.stadium.name} </Col>
       </Row>
 

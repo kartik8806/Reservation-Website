@@ -146,7 +146,7 @@ export default function AddMatch({close, setMatches}) {
                             <TextField
                                 error={referee === ''}
                                 required
-                                label="referee"
+                                label="referee or 3rd Ampire"
                                 value={referee}
                                 onChange={(event) => {
                                     if (!/^[a-zA-Z\s]+$/.test(event.target.value) && event.target.value !== '') return;
@@ -159,7 +159,7 @@ export default function AddMatch({close, setMatches}) {
                             <TextField
                                 error={linesman1 === ''}
                                 required
-                                label={"Linesman 1"}
+                                label={"Linesman 1 or Ampire 1 "}
                                 value={linesman1}
                                 onChange={(event) => {
                                     if (!/^[a-zA-Z\s]+$/.test(event.target.value) && event.target.value !== '') return;
@@ -172,7 +172,7 @@ export default function AddMatch({close, setMatches}) {
                             <TextField
                                 error={linesman2 === ''}
                                 required
-                                label={"Linesman 2"}
+                                label={"Linesman 2 or Ampire 2"}
                                 value={linesman2}
                                 onChange={(event) => {
                                     if (!/^[a-zA-Z\s]+$/.test(event.target.value) && event.target.value !== '') return;
