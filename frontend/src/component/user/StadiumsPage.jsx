@@ -10,7 +10,7 @@ import Footer from "../layout/Footer/Footer";
 
 
 async function getstadiums() {
-    const response = await fetch('http://localhost:3000/stadiums');
+    const response = await fetch('https://reservation-website-kappa.vercel.app/stadiums');
     return response.json();
 }
 
