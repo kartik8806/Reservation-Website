@@ -13,17 +13,19 @@ import StadiumsPage from "./component/user/StadiumsPage.jsx";
 import AllUsers from "./component/user/AllUsers.jsx";
 import TicketsPage from "./component/user/TicketsPage.jsx";
 
+const apiPath = 'https://reservation-website-frontend.vercel.app/';
+
 function App() {
     return (
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/UserHomeTest" element={<UserHomeTest />} />
+                    <Route path={`${apiPath}UserHomeTest`} element={<UserHomeTest />} />
                     <Route path="/Userprofile" element={<Userprofile />} />
                     <Route path="/" element={<LandingPage />} />
                     <Route path="/Login" element={<Login />} />
                     <Route path="/signup" element={<Signup />} />
-                    <Route path="/matches" element={<Matches />} />
+                    <Route path={`${apiPath}matches`} element={<Matches />} />
                     <Route path={'/match/:id'} element={<Match/>}/>
                     <Route path="/AddMatch" element={<AddMatch/>}/>
                     <Route path="/Portal" element={<RequestsPortal/>}/>
