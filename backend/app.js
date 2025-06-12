@@ -71,8 +71,7 @@ app.use(express.urlencoded({ extended: true }));
  */
 app.get("/",(req,res)=>{
     res.json("hellow");
-})
-                 )
+});
 
 app.post('/register', asyncHandler(async (req, res) => {
     const { password } = req.body;
