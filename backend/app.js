@@ -68,6 +68,10 @@ app.use(express.urlencoded({ extended: true }));
 /**
  * Routes
  */
+app.get("/",(req,res)=>{
+    res.send("hellow");
+})
+                 )
 
 app.post('/register', asyncHandler(async (req, res) => {
     const { password } = req.body;
