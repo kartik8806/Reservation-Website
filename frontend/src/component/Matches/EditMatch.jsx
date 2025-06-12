@@ -16,12 +16,12 @@ import Stepper from "@mui/material/Stepper";
 import SeatGrid from "./SeatGrid.jsx";
 
 async function getTeams() {
-    const response = await fetch('http://localhost:3000/teams');
+    const response = await fetch('https://reservation-website-kappa.vercel.app/teams');
     return response.json();
 }
 
 async function getStadiums() {
-    const response = await fetch('http://localhost:3000/stadiums');
+    const response = await fetch('https://reservation-website-kappa.vercel.app/stadiums');
     return response.json();
 }
 
