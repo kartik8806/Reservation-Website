@@ -53,7 +53,7 @@ const session = expressSession({
 app.use(session);
 
 const corsOptions = {
-    origin: [''],
+    origin: ['https://reservation-website-frontend.vercel.app/'],
     method:['POST','GET'],// replace with your client's origin
     credentials: true,  // This allows the session cookie to be sent back and forth
 };
