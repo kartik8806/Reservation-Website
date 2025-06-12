@@ -69,7 +69,7 @@ app.use(express.urlencoded({ extended: true }));
  * Routes
  */
 app.get("/",(req,res)=>{
-    res.send("hellow");
+    res.json("hellow");
 })
                  )
 
