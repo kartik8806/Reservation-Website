@@ -21,7 +21,7 @@ const ButtonsUsed = (props) => {
     const LogOut = async () => {
 
         try {
-            const res = await axios.get('/logout', { withCredentials: true });
+            const res = await axios.get('https://reservation-website-frontend.vercel.app/logout', { withCredentials: true });
             if (res) {
                 console.log(res);
                 window.location.href = '/';
@@ -56,7 +56,7 @@ ButtonsUsed.propTypes = {
 function NavBar(props) {
     const getRole = async () => {
         try {
-            const res = await axios.get('/userRole', { withCredentials: true });
+            const res = await axios.get('https://reservation-website-frontend.vercel.app/userRole', { withCredentials: true });
             if (res) {
                 console.log(res);
                 return res.data;
