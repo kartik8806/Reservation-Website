@@ -13,7 +13,7 @@ const authorizeUser = require("./utils/authorizeUser");
 */
 require('dotenv').config();
 
-mongoose.connect(process.env.DB_CONNECTION_STRING);
+mongoose.connect("mongodb+srv://kartikpatle8806:nwUhz8EesA4E55it@cluster0.shsmga1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 const db = mongoose.connection;
 
 db.once("connected", () => {
