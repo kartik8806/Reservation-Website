@@ -53,7 +53,8 @@ const session = expressSession({
 app.use(session);
 
 const corsOptions = {
-    origin: 'https://reservation-website-kappa.vercel.app/', // replace with your client's origin
+    origin: ['https://reservation-website-kappa.vercel.app/'],
+    method:['POST','GET'],// replace with your client's origin
     credentials: true,  // This allows the session cookie to be sent back and forth
 };
 
